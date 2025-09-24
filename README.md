@@ -1,0 +1,3 @@
+# Implementação de Sistema de Captura e Processamento de Pacotes
+
+<p>Projeto para criação de um sistema de monitoramento de Carga em um servidor, o sistema deverá processar o volume de tráfego de entrada e saída agrupado por cada cliente IP, e exibi-los em uma interface front-end intuítiva com o uso de gráficos em barra dinâmico. Esta interface também deve permitir uma análise profunda dos protocolos usados na comunicação.</p>
