@@ -3,7 +3,7 @@ from typing import Dict, Any
 
 SERVER_IP = "192.168.0.10"
 
-CAPTURE_INTERFACE = "Ethernet"  # Altere para sua interface
+CAPTURE_INTERFACE = "Ethernet 2"  # Altere para sua interface
 
 # Porta espelhada (mirror port) - se aplicável
 MIRROR_PORT = None  

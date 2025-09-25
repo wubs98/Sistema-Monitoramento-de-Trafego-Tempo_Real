@@ -159,7 +159,7 @@ def test_sniffer():
     print("🧪 Testando PacketSniffer...")
     
     # ALTERE ESTE IP PARA O SEU SERVIDOR!
-    sniffer = PacketSniffer(server_ip="192.168.0.10", interface="Ethernet")
+    sniffer = PacketSniffer(server_ip="192.168.0.10", interface="Ethernet 2")
     
     print("Capturando pacotes por 10 segundos...")
     print("Gere algum tráfego no seu servidor (acesse HTTP/FTP)")
