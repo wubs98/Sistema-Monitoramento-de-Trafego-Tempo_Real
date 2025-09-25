@@ -1,0 +1,12 @@
+daal==2021.6.0
+daal4py==2021.6.3
+git-filter-repo==2.47.0
+llvmlite==0.38.1
+numba==0.55.1
+numpy==1.21.0
+pandas==1.5.3
+python-dateutil==2.9.0.post0
+pytz==2025.2
+scapy==2.6.1
+six==1.17.0
+tbb==2021.13.1
