@@ -1,0 +1,68 @@
+# =============================================================================
+# DEPENDÊNCIAS PRINCIPAIS
+# =============================================================================
+
+# Scapy - Captura e análise de pacotes de rede
+scapy==2.5.0
+
+# Pandas - Manipulação e análise de dados
+pandas==2.0.3
+
+# =============================================================================
+# DEPENDÊNCIAS DE DESENVOLVIMENTO E TESTES
+# =============================================================================
+
+# Pytest - Framework de testes
+pytest==7.4.0
+
+# Pytest-cov - Cobertura de testes
+pytest-cov==4.1.0
+
+# Mock - Para testes unitários
+mock==5.1.0
+
+# =============================================================================
+# DEPENDÊNCIAS DE SEGURANÇA E QUALIDADE
+# =============================================================================
+
+# Bandit - Análise estática de segurança
+bandit==1.7.5
+
+# Flake8 - Linter para qualidade do código
+flake8==6.0.0
+
+# Black - Formatador de código
+black==23.7.0
+
+# =============================================================================
+# DEPENDÊNCIAS DE LOG E MONITORAMENTO
+# =============================================================================
+
+# Loguru - Sistema de logging mais amigável
+loguru==0.7.2
+
+# Psutil - Monitoramento de sistema
+psutil==5.9.5
+
+# =============================================================================
+# DEPENDÊNCIAS OPCIONAIS (para funcionalidades extras)
+# =============================================================================
+
+# Requests - Para testes de servidores HTTP/FTP
+requests==2.31.0
+
+# Openpyxl - Manipulação de arquivos Excel (para exportação avançada)
+openpyxl==3.1.2
+
+# Matplotlib - Geração de gráficos (para relatórios)
+matplotlib==3.7.2
+
+# =============================================================================
+# DEPENDÊNCIAS DO SISTEMA OPERACIONAL
+# =============================================================================
+# Nota: Scapy pode requerer pacotes do sistema no Linux/Mac
+# Windows: geralmente funciona sem dependências adicionais
+
+# Para Linux/Mac pode ser necessário:
+# sudo apt-get install tcpdump (Linux)
+# brew install libpcap (Mac)
