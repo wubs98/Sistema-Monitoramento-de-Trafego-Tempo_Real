@@ -1,7 +1,7 @@
 import os
 from typing import Dict, Any
 
-SERVER_IP = "192.168.0.10"
+SERVER_IP = "192.168.0.4"
 
 CAPTURE_INTERFACE = "Ethernet 2"  # Altere para sua interface
 
@@ -44,10 +44,11 @@ COMMON_PORTS = {
 
 
 IGNORED_IPS = [
-    "127.0.0.1",      
-    "255.255.255.255", 
-    "224.0.0.0",      
-    "fe80::",         
+    "224.0.0.251",    # Multicast DNS
+    "224.0.0.22",     # IGMP
+    "239.255.255.250", # SSDP
+    "255.255.255.255", # Broadcast
+    "127.0.0.1",      # Localhost
 ]
 
 
