@@ -18,7 +18,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 # tenta importar o PacketSniffer e as configs; se falhar, usa defaults/test doubles
 try:
-    from packet_sniffer import PacketSniffer
+    from backend.packet_sniffer import PacketSniffer
 except Exception:
     PacketSniffer = None
 
@@ -33,7 +33,7 @@ except Exception:
     OUTPUT_PROTOCOL_CSV = "data/protocol_details_today.csv"
 
 # import persistence
-from persistence import Persistence
+from backend.persistence import Persistence
 
 # Configuração de logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -171,7 +171,6 @@ class TrafficAggregator:
                 'services_json': json.dumps(data['services']),
                 'ports_json': json.dumps(data['ports'])
             })
-
         return result, protocol_details
 
     def run_aggregation_cycle(self) -> None:

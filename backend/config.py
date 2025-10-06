@@ -1,9 +1,9 @@
 import os
 from typing import Dict, Any
 
-SERVER_IP = "192.168.0.4"
+SERVER_IP = ""
 
-CAPTURE_INTERFACE = "Ethernet 2"  # Altere para sua interface
+CAPTURE_INTERFACE = ""  # Altere para sua interface
 
 # Porta espelhada (mirror port) - se aplicável
 MIRROR_PORT = None  
