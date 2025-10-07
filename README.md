@@ -4,9 +4,10 @@
 
 # Requisitos
 
-- [Python] (https://www.python.org/)
+- Python (https://www.python.org/)
 - Biblioteca python Scapy
 - Biblioteca python Pandas
+- Npcap (Para o Windows)
 
 # Como Usar
 
